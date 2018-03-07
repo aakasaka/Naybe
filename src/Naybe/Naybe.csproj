@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <RootNamespace>Sgk.Libs.Naybe</RootNamespace>
+    <AssemblyName>Sgk.Libs.Naybe</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>aakasaka</Authors>
+    <Company>softgiken</Company>
+    <Description>.NET implementation of Maybe / Optional.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>softgiken</Copyright>
+    <PackageTags>Maybe Optional</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageId>Naybe</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\Sgk.Libs.Naybe.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
